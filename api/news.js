@@ -28,7 +28,7 @@ export default async function handler(req, res) {
     });
   }
 
-  const apiKey = process.env.GNEWS_API_KEY;
+  const apiKey = process.env.f9e21e558f8d6f86c46950107a616195;
 
   if (!apiKey) {
     console.error("GNEWS_API_KEY environment variable is missing.");
